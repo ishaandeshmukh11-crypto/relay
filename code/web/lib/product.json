@@ -1,0 +1,35 @@
+{
+  "id": "relay",
+  "name": "Relay",
+  "line": "WhatsApp campaigns from one Excel sheet.",
+  "desc": "Upload a consented contact list, send approved WhatsApp templates in controlled batches, and track delivery, reads and replies. Optional Instagram and Facebook comment-to-message is included.",
+  "features": [
+    "WhatsApp promotional campaigns from an Excel sheet",
+    "Opt-in and opt-out handled automatically",
+    "Instagram and Facebook comment-to-message (optional)",
+    "Delivery, read and reply tracking",
+    "Keyword auto-replies and STOP handling"
+  ],
+  "steps": [
+    ["Connect WhatsApp", "Connect your WhatsApp Business number securely."],
+    ["Bring your contacts", "Upload an Excel sheet with opt-in recorded and an explicit country for local numbers."],
+    ["Choose a message", "Pick an APPROVED template and personalise with columns from your sheet."],
+    ["Sent safely", "Delivered in controlled batches that protect your number."],
+    ["Replies handled", "Simple rules handle STOP and keywords. Unmatched replies stay in your inbox."],
+    ["Comments become chats", "A comment on Instagram or Facebook can get a private message back."]
+  ],
+  "ba": [
+    ["Messages sent one at a time", "One campaign reaches the whole list"],
+    ["Comments left unanswered", "Each comment can get a private reply"],
+    ["Chats spread across phones", "One shared inbox in Relay"]
+  ],
+  "pricing": {
+    "currency": "USD",
+    "note": "Customer-facing USD list from the product guide. Annual billing charges 10 months (two months saved). INR prices stay configurable until approved.",
+    "plans": [
+      { "id": "starter", "name": "Starter", "price": 49, "conversations": 1000 },
+      { "id": "growth", "name": "Growth", "price": 149, "conversations": 10000 }
+    ]
+  },
+  "note": "Mira handoff and the shared multi-agent TWWIOS shell are not shipped in this Relay package. Do not advertise them as available."
+}

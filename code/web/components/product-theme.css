@@ -1,0 +1,28 @@
+/* TWWIOS product theme: white page, same design system as the TWWIOS home page
+   (Inter Tight light headlines, Inter body, JetBrains Mono labels, black pill buttons, red-pink-orange accent). Loaded after wa.css / saathi.css. */
+.wa,.st{--ink:#0b0b0c;--mut:#6b6b70;--line:rgba(0,0,0,.12);--bg:#fff;--card:#fff;--ac:#ff3d2e;--ac2:#e02a1c;--tint:#fff1ee;--hot:linear-gradient(135deg,#ff8a1f,#ff3d2e 45%,#ff2f7d);
+ background:#fff;font-family:"Inter",system-ui,sans-serif;font-size:15px}
+.wa h1,.wa h2,.wa h3,.st h1,.st h2,.st h3{font-family:"Inter Tight","Arial Narrow",Arial,sans-serif;font-weight:500;text-transform:none;letter-spacing:-.04em;line-height:1.02;text-wrap:balance}
+.wa h1,.st h1{font-size:clamp(36px,5.4vw,76px)}.wa h2,.st h2{font-size:clamp(28px,3.6vw,52px)}.wa h3,.st h3{font-size:21px;letter-spacing:-.03em}
+.wa h1 em,.st h1 em{font-style:normal;background:var(--hot);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wa-brand,.st-brand{font:600 21px "Inter Tight",sans-serif;text-transform:none;letter-spacing:-.03em}
+.wa-brand i,.st-brand i{width:22px;height:22px;padding:0;border-radius:7px;background:var(--hot);font-size:0;display:block;color:transparent}
+.wa-btn,.st-btn{font:500 15px "Inter",sans-serif;background:#0b0b0c;color:#fff;border:1px solid #0b0b0c;padding:12px 22px;transition:transform .25s,background .25s}
+.wa-btn:hover,.st-btn:hover{background:#2a2a2d;transform:translateY(-2px)}
+.wa-btn.g,.st-btn.o{background:#fff;color:#0b0b0c;border:1px solid rgba(0,0,0,.2)}.wa-btn.g:hover,.st-btn.o:hover{background:#f4f3f1}
+.st a.st-btn{color:#fff}.st a.st-btn.o{color:#0b0b0c}
+.wa-btn.hot,.st-btn.ac{background:var(--hot);border:0;color:#fff}
+.wa-tab,.st-nav button{font:500 13.5px "Inter",sans-serif;border-color:rgba(0,0,0,.14)}
+.wa-tab.on,.st-nav button[aria-current=page]{background:#0b0b0c;border-color:#0b0b0c;color:#fff}
+.st-nav .n{background:var(--hot)}
+.wa-card,.st-card{border:1px solid rgba(0,0,0,.1);border-radius:24px;box-shadow:none;background:#fff}
+.wa-stat,.st-stat{border:1px solid rgba(0,0,0,.1);border-radius:20px}
+.wa-stat b,.st-stat b{font:500 30px "Inter Tight",sans-serif;letter-spacing:-.04em}
+.wa label.l,.st label.l,.st-eyebrow,.wa-eyebrow,.wa-stat span,.st-stat span{font:400 11px "JetBrains Mono",ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.st-eyebrow,.wa-eyebrow{color:var(--ac)}
+.wa input:not([type]),.wa input[type=text],.wa input[type=email],.wa input[type=password],.wa textarea,.wa select,.st input,.st textarea,.st select{border:1px solid rgba(0,0,0,.18);border-radius:14px;font:15px "Inter",sans-serif;background:#fff}
+.wa input:focus-visible,.wa textarea:focus-visible,.wa select:focus-visible,.st input:focus-visible,.st textarea:focus-visible,.st select:focus-visible{outline:2px solid #0b0b0c;outline-offset:2px}
+.wa a,.st a{color:var(--ac)}
+.wa-chip,.st-chip,.st-tag{font-family:"Inter",sans-serif;border-color:rgba(0,0,0,.14)}.st-tag.ac{background:var(--tint);border-color:#ffc9c1;color:var(--ac2)}
+.wa table,.st-table{font-family:"Inter",sans-serif}
+.st-brand small,.wa-brand small{font:400 11px "JetBrains Mono",ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}

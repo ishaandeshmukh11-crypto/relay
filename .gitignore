@@ -1,0 +1,56 @@
+# secrets and local env
+.env
+.env.*
+!.env.example
+!**/.env.example
+!staging/.env.staging.example
+!staging/.env.web.staging.example
+staging/.env.staging
+staging/.env.web.staging
+*.stagingbak
+*.bak
+
+# dependencies and builds
+node_modules/
+code/api/node_modules/
+code/web/node_modules/
+code/web/.next/
+code/web/out/
+dist/
+build/
+coverage/
+
+# logs and OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / local
+.idea/
+.vscode/
+*.swp
+*.swo
+code/web/AGENTS.md
+code/web/CLAUDE.md
+
+# backups and local data
+backups/
+*.dump
+*.archive
+*.bson
+*.bson.gz
+
+# local tooling / Cursor / temp
+.tmp/
+.temp/
+.tools/
+.cursor/
+agent-transcripts/
+
+# Windows / installer caches
+WinGet/
+*.msi
+*.exe
+!scripts/**

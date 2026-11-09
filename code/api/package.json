@@ -1,0 +1,23 @@
+{
+  "name": "twwios-relay-api",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <27"
+  },
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node tests/auth.test.mjs && node tests/admin.test.mjs && node tests/billing.test.mjs && node tests/social.test.mjs && node tests/durability.test.mjs && node tests/policy.test.mjs && node tests/contacts.test.mjs && node tests/unit.test.mjs && node tests/security.test.mjs",
+    "test:unit": "node tests/unit.test.mjs && node tests/security.test.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.0",
+    "zod": "4.6.7"
+  }
+}

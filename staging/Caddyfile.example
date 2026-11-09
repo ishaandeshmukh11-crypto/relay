@@ -1,0 +1,6 @@
+staging.relay.example.com {
+  reverse_proxy localhost:3000
+}
+api.staging.relay.example.com {
+  reverse_proxy localhost:4000
+}
